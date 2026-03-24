@@ -306,6 +306,7 @@ html:not(.dark) .icon-moon { display: block; }
   background-size: 48px 48px;
   opacity: 0.4;
   mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 40%, transparent 100%);
+  z-index: -1;
 }
 
 html:not(.dark) .hero-bg-grid { opacity: 0.25; }
@@ -1130,6 +1131,7 @@ html:not(.dark) .hero-bg-grid { opacity: 0.25; }
   height: 400px;
   background: radial-gradient(ellipse, rgba(59,130,246,0.08) 0%, transparent 70%);
   pointer-events: none;
+  z-index: -1;
 }
 
 .cta-title {
