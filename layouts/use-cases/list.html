@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{ partial "nav.html" . }}
+
+<section class="uc-list-hero">
+  <div class="container">
+    <div class="section-label">Use Cases</div>
+    <h1 class="uc-list-title">AI Use Cases Across Industries</h1>
+    <p class="uc-list-subtitle">Real-world patterns for building AI prototypes that solve specific business problems - from media automation to enterprise document processing.</p>
+  </div>
+</section>
+
+<section class="uc-list-body">
+  <div class="container">
+    <div class="uc-grid">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="uc-card">
+        <div class="uc-card-inner">
+          <i data-lucide="arrow-right" class="uc-card-icon"></i>
+          <h2 class="uc-card-title">{{ .Title }}</h2>
+          {{ if .Params.description }}
+          <p class="uc-card-desc">{{ .Params.description }}</p>
+          {{ end }}
+          <span class="uc-card-link">Read more <i data-lucide="chevron-right"></i></span>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+
+    <div class="uc-list-cta">
+      <p>Don't see your industry? Every AI challenge is unique.</p>
+      <a href="mailto:hello@ai-workshops.online" class="btn btn-primary">
+        <i data-lucide="calendar"></i>
+        Book a Free Idea Call
+      </a>
+      <a href="/" class="btn btn-ghost">
+        <i data-lucide="home"></i>
+        Back to Homepage
+      </a>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
+{{ end }}

@@ -1,0 +1,57 @@
+{{ define "main" }}
+{{ partial "nav.html" . }}
+
+<article class="use-case-page">
+
+  <!-- HERO -->
+  <section class="uc-hero">
+    <div class="container">
+      <a href="/use-cases/" class="uc-back">
+        <i data-lucide="arrow-left"></i>
+        All Use Cases
+      </a>
+      <div class="uc-hero-inner">
+        <div class="section-label">Use Case</div>
+        <h1 class="uc-title">{{ .Title }}</h1>
+        {{ if .Params.subtitle }}
+        <p class="uc-subtitle">{{ .Params.subtitle }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="uc-body">
+    <div class="container">
+      <div class="uc-content">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="uc-cta">
+    <div class="container">
+      <div class="uc-cta-inner">
+        <div class="cta-bg-glow"></div>
+        <div class="section-label">Get Started</div>
+        <h2 class="uc-cta-title">Ready to explore this with your team?</h2>
+        <p class="uc-cta-sub">Book a free 30-minute Idea Call - no commitment, no slides. Just a conversation about your AI goals and whether a workshop is the right fit.</p>
+        <div class="uc-cta-actions">
+          <a href="mailto:hello@ai-workshops.online" class="btn btn-primary btn-large">
+            <i data-lucide="calendar"></i>
+            Book a Free Idea Call
+          </a>
+          <a href="/" class="btn btn-ghost">
+            <i data-lucide="arrow-left"></i>
+            Back to Homepage
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</article>
+
+{{ partial "footer.html" . }}
+{{ end }}

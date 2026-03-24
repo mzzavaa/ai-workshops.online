@@ -1,0 +1,20 @@
+baseURL: "https://ai-workshops.online/"
+languageCode: "en-us"
+title: "AI Workshops - Linda Mohamed | Enterprise AI Consulting"
+
+params:
+  description: "Structured, hands-on AI workshops that take your team from idea to working prototype in 3 sessions. AWS-funded options available. Based in Vienna, working globally."
+  author: "Linda Mohamed"
+  darkMode: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+
+enableRobotsTXT: true
+canonifyURLs: true
