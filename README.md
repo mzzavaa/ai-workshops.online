@@ -45,8 +45,8 @@ Based in Vienna, working globally.
 
 ## Tech Stack
 
-- **[Hugo](https://gohugo.io/)** — static site generator
-- **[GitHub Pages](https://pages.github.com/)** — hosting
+- **[Hugo](https://gohugo.io/)** - static site generator
+- **[GitHub Pages](https://pages.github.com/)** - hosting
 
 ---
 
@@ -64,5 +64,5 @@ The site runs at `http://localhost:1313`.
 
 ## Related
 
-- **[AI Solutions Wiki](https://ai-solutions.wiki)** — Knowledge base for building production AI systems
-- **[Three Workshop Method](https://ai-solutions.wiki/frameworks/three-workshop-method/)** — Detailed methodology documentation
+- **[AI Solutions Wiki](https://ai-solutions.wiki)** - Knowledge base for building production AI systems
+- **[Three Workshop Method](https://ai-solutions.wiki/frameworks/three-workshop-method/)** - Detailed methodology documentation

@@ -5,7 +5,7 @@
   <div class="container">
     <div class="section-label">Use Cases</div>
     <h1 class="uc-list-title">AI Use Cases Across Industries</h1>
-    <p class="uc-list-subtitle">Real-world patterns for building AI prototypes that solve specific business problems - from media automation to enterprise document processing.</p>
+    <p class="uc-list-subtitle">Real-world patterns for building AI prototypes that solve specific business problems: from media automation to enterprise document processing.</p>
   </div>
 </section>
 
@@ -15,12 +15,12 @@
       {{ range .Pages }}
       <a href="{{ .RelPermalink }}" class="uc-card">
         <div class="uc-card-inner">
-          <i data-lucide="arrow-right" class="uc-card-icon"></i>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="uc-card-icon" aria-hidden="true"><line x1="5" x2="19" y1="12" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           <h2 class="uc-card-title">{{ .Title }}</h2>
           {{ if .Params.description }}
           <p class="uc-card-desc">{{ .Params.description }}</p>
           {{ end }}
-          <span class="uc-card-link">Read more <i data-lucide="chevron-right"></i></span>
+          <span class="uc-card-link">Read more <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></span>
         </div>
       </a>
       {{ end }}
@@ -28,12 +28,12 @@
 
     <div class="uc-list-cta">
       <p>Don't see your industry? Every AI challenge is unique.</p>
-      <a href="https://outlook.office.com/book/Letstalk1@lindamohamed.com/" class="btn btn-primary" target="_blank" rel="noopener">
-        <i data-lucide="calendar"></i>
+      <a href="https://outlook.office.com/book/Letstalk1@lindamohamed.com/" class="btn btn-warm" target="_blank" rel="noopener">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
         Book a Free Idea Call
       </a>
       <a href="/" class="btn btn-ghost">
-        <i data-lucide="home"></i>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         Back to Homepage
       </a>
     </div>
