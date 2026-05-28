@@ -3,6 +3,9 @@ public/
 resources/_gen/
 .hugo_build.lock
 
+# Source assets / raw uploads (keep out of repo)
+input/
+
 # Scripts with sensitive operations
 scripts/
 

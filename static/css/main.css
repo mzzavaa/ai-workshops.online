@@ -2545,3 +2545,99 @@ html.dark .ws-arch-node--output {
   .ws-title           { font-size: clamp(32px, 8vw, 52px); }
   .ws-sidebar         { flex-direction: column; }
 }
+
+/* =============================================
+   CINEMATIC SECTION IMAGES
+   ============================================= */
+
+/*
+ * Shared style for all full-width cinematic images.
+ * Border + shadow gives them physical weight — they sit
+ * inside the page rather than floating in space.
+ */
+.cinematic-band {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 56px rgba(0, 0, 0, 0.38);
+}
+
+/* ── Hero ───────────────────────────────────── */
+.hero-visual {
+  margin-top: 52px;
+}
+
+/* ── Problem ────────────────────────────────── */
+.problem-visual {
+  margin: 36px 0 44px;
+}
+
+/* ── Method: 3-image visual row ─────────────── */
+.method-visuals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 36px 0 44px;
+}
+
+.method-visual-item img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+              box-shadow 0.4s ease;
+}
+
+.method-visual-item img:hover {
+  transform: scale(1.015);
+  box-shadow: 0 12px 48px rgba(155, 35, 53, 0.22);
+}
+
+/* ── Method: full-width statement banner ────── */
+.method-banner {
+  margin-top: 40px;
+}
+
+/* ── Results: cinematic asset preview ───────── */
+.results-visual {
+  margin-bottom: 22px;
+}
+
+/* ── Industries ─────────────────────────────── */
+.industries-visual {
+  margin: 32px 0 44px;
+}
+
+/* ── Funding ─────────────────────────────────── */
+.funding-visual {
+  margin: 32px 0 44px;
+}
+
+/* ── About: full-span cinematic statement ────── */
+.about-visual {
+  /* spans both columns of the about-inner grid */
+  grid-column: 1 / -1;
+  margin-top: 52px;
+}
+
+/* ── CTA ─────────────────────────────────────── */
+.cta-visual {
+  margin-bottom: 48px;
+}
+
+/* ── Responsive ─────────────────────────────── */
+@media (max-width: 900px) {
+  .method-visuals { grid-template-columns: 1fr; gap: 10px; }
+}
+
+@media (max-width: 600px) {
+  .hero-visual      { margin-top: 36px; }
+  .problem-visual   { margin: 24px 0 32px; }
+  .method-banner    { margin-top: 28px; }
+  .cta-visual       { margin-bottom: 32px; }
+  .about-visual     { margin-top: 36px; }
+}
