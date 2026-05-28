@@ -1,0 +1,108 @@
+{{ define "main" }}
+{{ partial "nav.html" . }}
+
+<article class="ws-page">
+
+  <section class="ws-hero">
+    <div class="container">
+      <a href="/workshops/" class="ws-back">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" x2="5" y1="12" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+        All Workshops
+      </a>
+      <div class="ws-phase-tag">{{ .Params.phase_label }}</div>
+      <h1 class="ws-title">{{ .Title }}</h1>
+      {{ if .Params.tagline }}<p class="ws-tagline">{{ .Params.tagline }}</p>{{ end }}
+      <div class="ws-meta-strip">
+        {{ if .Params.duration }}
+        <div class="ws-meta-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          {{ .Params.duration }}
+        </div>
+        {{ end }}
+        {{ if .Params.participants }}
+        <div class="ws-meta-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          {{ .Params.participants }}
+        </div>
+        {{ end }}
+        <div class="ws-meta-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          On-site or remote
+        </div>
+        <div class="ws-meta-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          AWS-funded options available
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ws-body">
+    <div class="container">
+      <div class="ws-content-grid">
+
+        <div class="ws-main">
+          {{ .Content }}
+        </div>
+
+        <aside class="ws-sidebar">
+
+          {{ if .Params.deliverables }}
+          <div class="ws-sidebar-card">
+            <h3>You walk away with</h3>
+            <ul class="ws-deliverables-list">
+              {{ range .Params.deliverables }}
+              <li>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                {{ . }}
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+
+          {{ if .Params.related_use_cases }}
+          <div class="ws-sidebar-card">
+            <h3>Related case studies</h3>
+            <ul class="ws-related-list">
+              {{ range .Params.related_use_cases }}
+              <li>
+                <a href="{{ .url }}" class="ws-related-link">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" x2="19" y1="12" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                  {{ .title }}
+                </a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+
+          {{ if .Params.next_workshop }}
+          <div class="ws-sidebar-card ws-next-card">
+            <h3>Up next</h3>
+            <p>{{ .Params.next_workshop.desc }}</p>
+            <a href="{{ .Params.next_workshop.url }}" class="ws-next-link">
+              {{ .Params.next_workshop.title }}
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" x2="19" y1="12" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+          {{ end }}
+
+          <div class="ws-sidebar-card">
+            <h3>Start with a free call</h3>
+            <p style="font-size:13px;color:var(--text-secondary);line-height:1.6;margin:0 0 14px;">No commitment. Discuss whether this workshop format fits your situation.</p>
+            <a href="https://outlook.office.com/book/Letstalk1@lindamohamed.com/" class="btn btn-warm" target="_blank" rel="noopener" style="width:100%;justify-content:center;">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+              Book a Free Idea Call
+            </a>
+          </div>
+
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</article>
+
+{{ partial "footer.html" . }}
+{{ end }}
