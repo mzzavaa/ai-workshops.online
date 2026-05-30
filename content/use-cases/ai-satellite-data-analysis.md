@@ -28,6 +28,12 @@ AI layers onto geospatial data pipelines to make them conversational and automat
 
 **Agent-based workflows** - Multi-step geospatial analysis can be orchestrated by AI agents: query satellite archive, detect change, cross-reference with cadastral data, generate summary report.
 
+
+
+![Satellite data analysis pipeline: ingest, normalise, classify, surface signal to the geospatial analyst.](/images/fig-data-network.png)
+
+*Geospatial AI operates at scale that exceeds human review by orders of magnitude. The analyst is the layer above the model, not the layer below.*
+
 ## Real-World Example
 
 A geospatial platform company built a natural language interface for their satellite data product. Users could type questions like "Where has construction activity increased in the Vienna metro area in Q1?" and receive a map response within seconds.

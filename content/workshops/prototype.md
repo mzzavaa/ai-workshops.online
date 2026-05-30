@@ -224,6 +224,12 @@ The implementation roadmap delivered at the end of the sprint maps the path from
   <div class="ws-quote-attr">Enterprise Client, Financial Services, Vienna</div>
 </div>
 
+
+
+![Prototype Sprint outcome: working demo, deployment documentation, implementation roadmap, AWS funding application pre-filled.](/images/fig-value-unlocked.png)
+
+*By the end of the day, the team has a prototype, a path to production, and a funded route to keep going.*
+
 ## Frequently asked questions
 
 <div class="ws-faq">
@@ -244,3 +250,9 @@ The implementation roadmap delivered at the end of the sprint maps the path from
     <div class="ws-faq-a">Yes. Remote Prototype Sprints work well for teams with strong engineering communication habits. The session uses shared screen, collaborative documentation, and a shared AWS environment. On-site sessions have slightly better energy for team-based builds, but the output quality is equivalent.</div>
   </div>
 </div>
+
+
+![Prototype Sprint working session: technical team builds a demo-ready prototype on real data, on AWS, in the room.](/images/fig-architecture-review.png)
+
+*The Prototype Sprint is the workshop where 'we should try AI' becomes 'we have AI running'.*
+

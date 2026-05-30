@@ -214,6 +214,12 @@ Building without a clear architecture is how organizations end up rebuilding. Th
   <div class="ws-quote-attr">CTO, Media &amp; Broadcasting, DACH Region</div>
 </div>
 
+
+
+![Concept Sprint workflow: from prioritised use case to architecture diagram, service mapping, and cost estimate.](/images/fig-pipeline-sequence.png)
+
+*Three hours of structured technical decisions. The output is the document that PoC funding applications get approved on.*
+
 ## Frequently asked questions
 
 <div class="ws-faq">
@@ -234,3 +240,9 @@ Building without a clear architecture is how organizations end up rebuilding. Th
     <div class="ws-faq-a">Yes. The cost estimate and architecture specification are structured to feed directly into an AWS PoC funding application, where up to €10,000 is available for qualifying projects. Linda holds AWS Community Hero status and has direct relationships with AWS funding teams.</div>
   </div>
 </div>
+
+
+![Concept Sprint output: target AWS architecture rendered as a modular system with service-level cost estimates.](/images/fig-modular-architecture.png)
+
+*The Concept Sprint produces the architecture engineering can build from and finance can fund.*
+

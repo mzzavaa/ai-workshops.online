@@ -24,6 +24,12 @@ Claims adjusters spend a significant portion of their time on information gather
 
 **Adjuster decision support** - For complex cases, AI summarizes the claim file, highlights key risk factors, and surfaces relevant precedents - giving the adjuster a structured brief instead of a stack of documents.
 
+
+
+![Insurance claim processing loop: classification, extraction, automated decisioning where appropriate, human review for edge cases.](/images/fig-feedback-cycle.png)
+
+*Insurance AI works as a closed loop. The signal that the human reviewer provides feeds back into the model the same week.*
+
 ## Real-World Example
 
 An insurance company piloted automated claims document extraction for a category of standard claims. The system:

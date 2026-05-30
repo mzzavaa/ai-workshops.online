@@ -24,6 +24,12 @@ The gap between a basic recommendation feature and a truly contextual one is sig
 
 **Explanation layer** - Modern recommendation systems can explain their suggestions: "Because you watched X and it's Friday evening" rather than a black-box result. This improves user trust and adoption.
 
+
+
+![Recommendation system architecture: user signals, item signals, ranking, retrieval, A/B framework.](/images/fig-microservices-nodes.png)
+
+*Recommendation systems are evaluation infrastructure. The model is the easy part; the measurement framework is the hard part.*
+
 ## Real-World Example
 
 A media platform built a contextual recommendation prototype for editorial content. The system combined:

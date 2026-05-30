@@ -61,6 +61,12 @@ Strong applications share several characteristics:
 - Partnership with an experienced AWS delivery partner
 - Realistic timeline with defined go-live date
 
+
+![Cloud migration funding bridges the gap: legacy infrastructure on one side, modern cloud architecture on the other.](/images/fig-legacy-vs-modern.png)
+
+*Migration funding exists for a specific reason: AWS wants the workload on AWS. The application is engineering, not paperwork.*
+
+
 ## Working with a Partner
 
 The funding landscape changes regularly. AWS launches new programs, adjusts eligibility criteria, and creates industry-specific initiatives. An experienced AWS partner navigates this on your behalf - knowing which programs are active, which combinations maximize total funding, and how to frame the project for approval.

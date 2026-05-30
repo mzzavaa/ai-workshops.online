@@ -43,6 +43,12 @@ Not every project qualifies, but the bar is lower than most organizations assume
 4. **Receive credits or funding commitment** - Approval timelines vary but are often 2-4 weeks
 5. **Deliver the PoC** - Execute within the agreed scope and timeline
 
+
+![AWS AI funding flow: project scoped, partner-supported application, credits or funding committed, prototype delivered.](/images/fig-value-unlocked.png)
+
+*The funding is real. The application is structured. The partner who has navigated it before compresses the timeline measurably.*
+
+
 ## Working with a Partner to Navigate Funding
 
 AWS partners who are experienced with the funding process can significantly accelerate approval. They know which programs are active, how to frame the project for approval, and how to structure the delivery to meet program requirements.

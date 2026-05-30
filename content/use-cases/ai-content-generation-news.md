@@ -24,6 +24,12 @@ AI content generation tools address the transformation layer, not the journalism
 
 **Newsletter and social copy** - From a published article, AI generates newsletter paragraphs and social media posts in the publication's voice. Editors select and refine rather than writing from scratch.
 
+
+
+![News and content generation operations centre: incoming feeds, classification, drafting, editorial review, publication.](/images/fig-stream-processing.png)
+
+*Content AI is editorial infrastructure. The reporter or editor stays in the loop on every consequential decision.*
+
 ## Real-World Example
 
 A national news agency piloted AI-assisted metadata extraction for their article archive. The system:

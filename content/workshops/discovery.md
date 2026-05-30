@@ -194,6 +194,12 @@ The Tier 1 shortlist is the direct input to the Concept Sprint. Each item in Tie
   </div>
 </div>
 
+
+
+![Discovery Sprint room: leadership team in session, scoring framework on the wall, AI use cases prioritised live.](/images/fig-architect-oversight.png)
+
+*The Discovery Sprint replaces the workshop nobody acts on with a session that produces a decision the same afternoon.*
+
 ## Frequently asked questions
 
 <div class="ws-faq">
@@ -227,3 +233,9 @@ A strategy session produces a presentation. The Discovery Sprint produces a deci
 The difference is methodology. Every idea generated in the session is immediately scored against four criteria, filtered through a data readiness check, and assessed for funding eligibility, before the session closes. There is no post-processing, no follow-up workshop to interpret the outputs. The shortlist is signed off in the room, on the day, by the people who will own the work.
 
 This is also not a discovery exercise run by generalists. Linda Mohamed has 12+ years in enterprise IT and holds AWS Community Hero status, one of fewer than 300 globally. Every session is grounded in what AWS actually funds, what enterprise data architectures can realistically support, and what the gap between ambition and execution typically looks like in practice. The scoring reflects that experience, not just a methodology pulled from a playbook.
+
+
+![Discovery Sprint outputs: prioritised use case shortlist, readiness scorecard, funding eligibility report, workshop summary.](/images/fig-deliverables-grid.png)
+
+*Four deliverables. One half-day session. The day starts with a long list and ends with a defensible decision.*
+

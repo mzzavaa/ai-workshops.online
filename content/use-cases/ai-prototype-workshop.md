@@ -45,6 +45,12 @@ We test the prototype with real data and real users from your team. We document 
 - Structured enough to make decisions, not just discuss them
 - Flexible enough to adapt to your industry and tech stack
 
+
+![Prototype workshop session: team building, reviewing, and deciding against working code rather than a slide deck.](/images/fig-architecture-review.png)
+
+*The prototype is the artefact that changes the conversation. Decisions made against working software are different decisions.*
+
+
 ## Who This Is For
 
 Organizations that:

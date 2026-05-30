@@ -24,6 +24,12 @@ Multi-agent architectures solve this by decomposing complex tasks into specializ
 
 **Parallelization** - Some workflows can run agent tasks in parallel (e.g., researching multiple topics simultaneously), dramatically reducing total processing time.
 
+
+
+![Multi-agent orchestration hub: specialised agents coordinated through a central pipeline with tool use and state management.](/images/fig-orchestration-hub.png)
+
+*Multi-agent systems are coordination infrastructure. The architecture is the agent; the LLMs are the workers.*
+
 ## Real-World Example
 
 A consulting firm built a multi-agent system for competitive intelligence reporting. The workflow involved:

@@ -26,6 +26,12 @@ This manual process is slow, expensive, error-prone, and deeply frustrating for 
 
 **Cross-document reasoning** - For complex cases (e.g., verifying that an invoice matches a purchase order matches a delivery receipt), AI can compare across multiple documents and flag discrepancies automatically.
 
+
+
+![Document extraction precision: OCR, classification, structured field extraction with calibrated confidence scoring.](/images/fig-precision-engineering.png)
+
+*Document AI is precision engineering. Confidence scoring is what makes the hybrid human-AI workflow possible.*
+
 ## Real-World Example
 
 A financial services firm processed approximately 3,000 invoices per month, each requiring manual data entry into their accounting system. The process was handled by a team of 4 people spending roughly half their time on this task.

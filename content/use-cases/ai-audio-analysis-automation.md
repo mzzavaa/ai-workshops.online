@@ -22,6 +22,12 @@ The same problem occurs in podcast production, corporate video, and live event r
 
 **Quality flagging** - Rather than listening to every second of a long recording, editors receive a flagged timeline: "potential clipping at 4:22", "mic handling noise at 12:07", "low confidence source at 38:44". Review time drops dramatically.
 
+
+
+![Audio analysis pipeline starting from a single signal source: capture, classify, structure, route to downstream systems.](/images/fig-signal-source.png)
+
+*Audio analysis at scale starts with disciplined capture and ends with structured signal the downstream systems can act on.*
+
 ## Real-World Example
 
 A broadcast production team piloted AI audio analysis for a documentary series. Each episode had 4-6 subjects recorded with dual-microphone setups. The AI pipeline:

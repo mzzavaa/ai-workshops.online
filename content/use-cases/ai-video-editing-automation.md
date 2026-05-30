@@ -24,6 +24,12 @@ AI video editing automation changes this equation fundamentally:
 
 **Live feed processing** - Real-time AI pipelines can monitor live feeds and flag moments of interest as they happen, giving editors a jump start before the broadcast is even over.
 
+
+
+![Video editing automation: ingest, scene detection, transcription, structured cut suggestions for the editor.](/images/fig-stream-processing.png)
+
+*Video AI is preparation. The editor still cuts; the AI has just made the raw material searchable, structured, and reviewable.*
+
 ## Real-World Example
 
 A national broadcaster piloted an AI video pipeline for daily press conference coverage. The system automatically:

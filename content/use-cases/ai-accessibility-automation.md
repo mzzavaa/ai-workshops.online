@@ -24,6 +24,12 @@ AI accessibility automation addresses each layer:
 
 **Quality assurance automation** - Beyond generation, AI can also verify that existing captions are synchronized correctly, flag segments with low confidence, and prioritize human review where it matters most.
 
+
+
+![Accessibility automation workflow: AI-assisted alt text, captioning, and transcription with human review.](/images/fig-human-in-the-loop.png)
+
+*Accessibility AI is augmentation, not replacement. The human reviewer remains the accountable layer for the lived experience.*
+
 ## Real-World Example
 
 A national broadcaster piloted AI subtitle generation for a subset of their archive and live content. The system:

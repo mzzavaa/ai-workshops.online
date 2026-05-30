@@ -57,6 +57,12 @@ This is the most underestimated dimension:
 
 Organizations with high technical readiness but low cultural readiness often deploy AI that nobody uses.
 
+
+![AI readiness assessment as a maturity model across five levels: ad-hoc, managed, defined, measured, adaptive.](/images/fig-maturity-stairs.png)
+
+*Readiness is not a yes/no. It is a maturity model with five distinct stages, and the honest answer is usually mixed.*
+
+
 ## What a Readiness Assessment Produces
 
 A structured readiness assessment produces:

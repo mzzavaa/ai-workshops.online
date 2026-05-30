@@ -24,6 +24,12 @@ Modern speaker diarization models solve this at scale:
 
 **Structured output** - Instead of a flat transcript, the output is a structured document: speaker, timestamp, text, confidence score. This plugs directly into CMS systems, summarization pipelines, or downstream search.
 
+
+
+![Streaming transcription and speaker attribution: audio in, structured transcript out, with confidence per segment.](/images/fig-signal-handoff.png)
+
+*Transcription is a signal handoff. The audio becomes structured data; the structured data becomes the input to every downstream workflow.*
+
 ## Real-World Example
 
 A national news agency piloted speaker-attributed transcription for parliamentary proceedings. The workflow:

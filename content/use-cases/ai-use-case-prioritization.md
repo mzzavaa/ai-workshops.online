@@ -59,6 +59,12 @@ After a 3-4 hour prioritization workshop, the output is a structured list:
 
 This output is a decision, not a presentation. The team leaves knowing exactly what they are building and why.
 
+
+![Use case prioritisation framework: scored against business value, technical feasibility, data readiness, funding eligibility.](/images/fig-deliverables-grid.png)
+
+*Prioritisation is the bottleneck most organisations never resolve. A scoring framework moves the decision from politics to evidence.*
+
+
 ## Why This Matters
 
 Organizations that skip prioritization often build the wrong thing - not because the idea was bad, but because it was the most enthusiastic idea in the room, not the highest-value one. A structured framework introduces objectivity and creates shared understanding before a line of code is written.

@@ -24,6 +24,12 @@ The irony is that internal process automation often has some of the highest ROI 
 
 **Knowledge base automation** - Internal wikis and documentation become searchable through natural language queries. Instead of "search the intranet for the procurement policy", employees ask a question and get a direct answer with a source reference.
 
+
+
+![Internal process orchestration: requests routed, classified, drafted, and returned to human approvers with structured input.](/images/fig-orchestration-hub.png)
+
+*Internal AI is workflow infrastructure. The work that humans actually do gets faster; the work humans should not do disappears.*
+
 ## Real-World Example
 
 An enterprise organization piloted AI-assisted onboarding for a specific department. The system:
