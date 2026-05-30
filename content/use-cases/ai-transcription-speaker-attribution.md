@@ -3,7 +3,7 @@ title: "AI Transcription with Accurate Speaker Attribution"
 description: "Multi-speaker transcription for news organizations, podcasts, and enterprise meetings - with accurate attribution even in complex, overlapping conversations."
 date: 2026-03-24
 page_image: "/images/uc-transcription-speaker-attribution.webp"
-page_image_alt: "AI transcription with accurate speaker attribution — diarization for meetings, podcasts, and broadcast"
+page_image_alt: "AI transcription with accurate speaker attribution — multi-speaker diarization for meetings, podcasts and broadcast"
 ---
 
 ## The Problem
