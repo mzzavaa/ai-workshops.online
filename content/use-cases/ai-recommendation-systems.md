@@ -2,6 +2,8 @@
 title: "Building AI Recommendation Systems"
 description: "Personalized recommendations using contextual data - mood, weather, calendar, user preferences. Practical patterns for real-time recommendation in consumer and enterprise apps."
 date: 2026-03-24
+page_image: "/images/uc-recommendation-systems.webp"
+page_image_alt: "Building AI recommendation systems — contextual personalization using embeddings and real-time signals"
 ---
 
 ## The Problem

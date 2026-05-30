@@ -2,6 +2,8 @@
 title: "AI-Powered Accessibility for Media"
 description: "Automated subtitles, audio descriptions, and sign language overlay for broadcast and streaming - making content accessible at scale without manual effort."
 date: 2026-03-24
+page_image: "/images/uc-accessibility-ai-brain.webp"
+page_image_alt: "AI accessibility automation — intelligent audio processing for media subtitles and descriptions"
 ---
 
 ## The Problem

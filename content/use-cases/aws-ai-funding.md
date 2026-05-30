@@ -2,6 +2,8 @@
 title: "AWS AI Funding - Up to 100% Funded PoC Development"
 description: "How to access AWS funding programs for AI proof-of-concept projects - including which programs apply, eligibility criteria, and how to navigate the application process."
 date: 2026-03-24
+page_image: "/images/aws-funded-100.webp"
+page_image_alt: "AWS AI Funding, up to €10k PoC funding and €400k migration acceleration"
 ---
 
 ## AWS Funds AI Prototypes

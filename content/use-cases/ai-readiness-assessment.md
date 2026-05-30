@@ -2,6 +2,8 @@
 title: "AI Readiness Assessment for Enterprises"
 description: "How to evaluate if your organization is ready for AI - covering data maturity, team skills, infrastructure, and culture before committing to development."
 date: 2026-03-24
+page_image: "/images/uc-readiness-assessment.webp"
+page_image_alt: "AI readiness assessment for enterprises — data, team, infrastructure, and governance dimensions"
 ---
 
 ## Why Readiness Matters

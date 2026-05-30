@@ -2,6 +2,8 @@
 title: "AI Video Editing Automation for Broadcasters"
 description: "How AI auto-cuts press conferences, generates highlight reels, and processes live feeds - reducing post-production time for broadcast teams."
 date: 2026-03-24
+page_image: "/images/uc-video-editing-news-screens.webp"
+page_image_alt: "AI video editing automation for broadcasters — auto-cuts, highlight reels, and live feed processing"
 ---
 
 ## The Problem

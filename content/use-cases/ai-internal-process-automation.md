@@ -2,6 +2,8 @@
 title: "AI for Internal Process Optimization"
 description: "Onboarding automation, document processing, and workflow automation - reducing manual overhead in HR, operations, and back-office teams."
 date: 2026-03-24
+page_image: "/images/uc-internal-process-optimization.webp"
+page_image_alt: "AI for internal process optimization — workflow automation and back-office efficiency"
 ---
 
 ## The Problem

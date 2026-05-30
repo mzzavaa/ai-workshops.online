@@ -2,6 +2,8 @@
 title: "From AI Idea to Working Prototype in 3 Weeks"
 description: "The workshop methodology that takes enterprise teams from AI opportunity identification to a working, demo-ready prototype - without months of planning."
 date: 2026-03-24
+page_image: "/images/uc-prototype-workshop.webp"
+page_image_alt: "From AI idea to working prototype in 3 weeks — the workshop methodology"
 ---
 
 ## The Challenge with AI Projects

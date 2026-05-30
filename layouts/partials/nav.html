@@ -1,14 +1,148 @@
 <header class="nav" id="nav">
   <div class="nav-inner">
     <a href="/" class="wordmark">
-      <span class="wordmark-ai">ai</span><span class="wordmark-dash">-</span><span class="wordmark-workshops">workshops</span>
+      <img src="/images/logo.webp" alt="AI Workshops" class="nav-logo" />
     </a>
+
     <nav class="nav-links" id="nav-links">
-      <a href="/workshops/">Workshops</a>
-      <a href="#industries">Industries</a>
-      <a href="#method">Method</a>
-      <a href="#cta" class="nav-cta">Book a Call</a>
+
+      <!-- Workshops — mega menu on hover -->
+      <div class="nav-item nav-item--mega">
+        <a href="/workshops/" class="nav-item-link">
+          Workshops
+          <svg class="nav-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
+
+        <div class="nav-mega" role="region" aria-label="Workshop navigation">
+          <div class="nav-mega-grid">
+
+            <a href="/workshops/discovery/" class="nav-mega-card">
+              <div class="nav-mega-img">
+                <img src="/images/workshop-goal.webp" alt="" loading="lazy" />
+              </div>
+              <div class="nav-mega-body">
+                <span class="nav-mega-step">01</span>
+                <strong>Goal Workshop</strong>
+                <span class="nav-mega-dur">2 hours &middot; Up to 8 people</span>
+                <p>Map your AI ambitions to a prioritized, fundable shortlist in a single focused session.</p>
+              </div>
+            </a>
+
+            <a href="/workshops/concept/" class="nav-mega-card">
+              <div class="nav-mega-img">
+                <img src="/images/workshop-concept.webp" alt="" loading="lazy" />
+              </div>
+              <div class="nav-mega-body">
+                <span class="nav-mega-step">02</span>
+                <strong>Concept Sprint</strong>
+                <span class="nav-mega-dur">3&ndash;4 hours &middot; Up to 8 people</span>
+                <p>Turn your top use case into a concrete AWS architecture with cost estimates.</p>
+              </div>
+            </a>
+
+            <a href="/workshops/prototype/" class="nav-mega-card">
+              <div class="nav-mega-img">
+                <img src="/images/workshop-decision.webp" alt="" loading="lazy" />
+              </div>
+              <div class="nav-mega-body">
+                <span class="nav-mega-step">03</span>
+                <strong>Prototype Sprint</strong>
+                <span class="nav-mega-dur">Full day &middot; Up to 8 people</span>
+                <p>Build a working, demo-ready AI prototype on AWS. Real data, real code, real results.</p>
+              </div>
+            </a>
+
+          </div>
+          <div class="nav-mega-footer">
+            <a href="/workshops/">Browse all workshops &rarr;</a>
+            <a href="/#cta" class="nav-mega-cta">Book a free Idea Call &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Use Cases — mega menu on hover -->
+      <div class="nav-item nav-item--mega">
+        <a href="/use-cases/" class="nav-item-link">
+          Use Cases
+          <svg class="nav-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
+
+        <div class="nav-mega nav-mega--cols" role="region" aria-label="Use case navigation">
+          <div class="nav-mega-cols">
+
+            <div class="nav-mega-col">
+              <span class="nav-mega-col-label">Enterprise Automation</span>
+              <a href="/use-cases/ai-document-processing/" class="nav-mega-link">
+                <strong>Document Processing</strong>
+                <span>OCR, extraction, and classification for invoices and contracts</span>
+              </a>
+              <a href="/use-cases/ai-internal-process-automation/" class="nav-mega-link">
+                <strong>Process Optimization</strong>
+                <span>Onboarding, approvals, and back-office workflow automation</span>
+              </a>
+              <a href="/use-cases/ai-multi-agent-systems/" class="nav-mega-link">
+                <strong>Multi-Agent Systems</strong>
+                <span>Orchestrating AI agents for complex enterprise workflows</span>
+              </a>
+              <a href="/use-cases/ai-insurance-process-automation/" class="nav-mega-link">
+                <strong>Insurance Automation</strong>
+                <span>Claims handling, risk scoring, and fraud detection</span>
+              </a>
+            </div>
+
+            <div class="nav-mega-col">
+              <span class="nav-mega-col-label">Media &amp; Broadcast</span>
+              <a href="/use-cases/ai-video-editing-automation/" class="nav-mega-link">
+                <strong>Video Editing</strong>
+                <span>AI auto-cuts, highlight reels, and live feed processing</span>
+              </a>
+              <a href="/use-cases/ai-transcription-speaker-attribution/" class="nav-mega-link">
+                <strong>Transcription &amp; Attribution</strong>
+                <span>Multi-speaker transcription with accurate attribution</span>
+              </a>
+              <a href="/use-cases/ai-audio-analysis-automation/" class="nav-mega-link">
+                <strong>Audio Analysis</strong>
+                <span>Automated editing and microphone selection for broadcast</span>
+              </a>
+              <a href="/use-cases/ai-content-generation-news/" class="nav-mega-link">
+                <strong>Content Generation</strong>
+                <span>AI-drafted summaries and multilingual content for news</span>
+              </a>
+            </div>
+
+            <div class="nav-mega-col">
+              <span class="nav-mega-col-label">Strategy &amp; Funding</span>
+              <a href="/use-cases/ai-readiness-assessment/" class="nav-mega-link">
+                <strong>AI Readiness</strong>
+                <span>Evaluate data maturity, team skills, and infrastructure</span>
+              </a>
+              <a href="/use-cases/ai-use-case-prioritization/" class="nav-mega-link">
+                <strong>Use Case Prioritization</strong>
+                <span>From 57 ideas to 3 fundable, ranked prototypes</span>
+              </a>
+              <a href="/use-cases/aws-ai-funding/" class="nav-mega-link">
+                <strong>AWS AI Funding</strong>
+                <span>Up to 100% funded PoC development via AWS programs</span>
+              </a>
+              <a href="/use-cases/aws-cloud-migration-funding/" class="nav-mega-link">
+                <strong>Migration Funding</strong>
+                <span>Up to €400k from AWS for cloud migration projects</span>
+              </a>
+            </div>
+
+          </div>
+          <div class="nav-mega-footer">
+            <a href="/use-cases/">Browse all use cases &rarr;</a>
+            <a href="/#cta" class="nav-mega-cta">Book a free Idea Call &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="/#method">Method</a>
+      <a href="/#packages">Packages</a>
+      <a href="/#cta" class="nav-cta">Book a Call</a>
     </nav>
+
     <div class="nav-actions">
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
         <svg class="icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>

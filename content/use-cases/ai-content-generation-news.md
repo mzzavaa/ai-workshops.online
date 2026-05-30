@@ -2,6 +2,8 @@
 title: "Automated Content Generation for News Organizations"
 description: "AI-drafted article summaries, metadata extraction, and multilingual content generation - helping editorial teams produce more without burning out."
 date: 2026-03-24
+page_image: "/images/uc-content-generation-news.webp"
+page_image_alt: "Automated AI content generation for news organizations — drafting, metadata, multilingual publishing"
 ---
 
 ## The Problem

@@ -2,6 +2,8 @@
 title: "AI for Satellite Data and Geospatial Intelligence"
 description: "Natural language queries on satellite imagery, automated change detection, and location analytics - making geospatial data accessible to non-GIS experts."
 date: 2026-03-24
+page_image: "/images/uc-satellite-geospatial.webp"
+page_image_alt: "AI for satellite data and geospatial intelligence — natural language queries on imagery and change detection"
 ---
 
 ## The Problem

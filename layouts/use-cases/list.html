@@ -6,6 +6,9 @@
     <div class="section-label">Use Cases</div>
     <h1 class="uc-list-title">AI Use Cases Across Industries</h1>
     <p class="uc-list-subtitle">Real-world patterns for building AI prototypes that solve specific business problems: from media automation to enterprise document processing.</p>
+    <div class="uc-list-visual">
+      <img src="/images/uc-overview-banner.webp" alt="AI use cases across industries — real-world enterprise AI patterns" class="cinematic-band" loading="eager" />
+    </div>
   </div>
 </section>
 
@@ -13,9 +16,13 @@
   <div class="container">
     <div class="uc-grid">
       {{ range .Pages }}
-      <a href="{{ .RelPermalink }}" class="uc-card">
+      <a href="{{ .RelPermalink }}" class="uc-card{{ if .Params.page_image }} uc-card--has-image{{ end }}">
+        {{ if .Params.page_image }}
+        <div class="uc-card-thumb">
+          <img src="{{ .Params.page_image }}" alt="{{ if .Params.page_image_alt }}{{ .Params.page_image_alt }}{{ else }}{{ .Title }}{{ end }}" loading="lazy" />
+        </div>
+        {{ end }}
         <div class="uc-card-inner">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="uc-card-icon" aria-hidden="true"><line x1="5" x2="19" y1="12" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           <h2 class="uc-card-title">{{ .Title }}</h2>
           {{ if .Params.description }}
           <p class="uc-card-desc">{{ .Params.description }}</p>

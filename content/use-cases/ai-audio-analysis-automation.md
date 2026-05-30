@@ -2,6 +2,8 @@
 title: "AI Audio Analysis and Automated Editing"
 description: "Multi-track audio analysis, automated microphone selection, and AI-assisted editing for broadcast and film post-production teams."
 date: 2026-03-24
+page_image: "/images/uc-audio-analysis-automation.webp"
+page_image_alt: "AI audio analysis and automated editing — multi-track analysis and mixing board automation"
 ---
 
 ## The Problem

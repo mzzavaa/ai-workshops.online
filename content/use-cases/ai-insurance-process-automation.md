@@ -2,6 +2,8 @@
 title: "AI for Insurance Claims Processing and Risk Assessment"
 description: "Automated claims handling, risk scoring, fraud detection, and document extraction for insurance companies - reducing processing time and improving accuracy."
 date: 2026-03-24
+page_image: "/images/uc-insurance-process-automation.webp"
+page_image_alt: "AI insurance claims processing and risk assessment — automated triage, fraud detection, and routing"
 ---
 
 ## The Problem

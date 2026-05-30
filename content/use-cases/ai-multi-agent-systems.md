@@ -2,6 +2,8 @@
 title: "Multi-Agent AI Systems for Enterprise"
 description: "Orchestrating multiple AI agents for complex workflows - when single-model approaches aren't enough and you need specialized agents working in coordination."
 date: 2026-03-24
+page_image: "/images/uc-multi-agent-systems.webp"
+page_image_alt: "Multi-agent AI systems for enterprise — orchestrated specialist agents for complex workflows"
 ---
 
 ## The Problem

@@ -2,6 +2,8 @@
 title: "How to Prioritize AI Use Cases: From 57 Ideas to 3 Prototypes"
 description: "A structured scoring framework for organizations overwhelmed with AI possibilities - how to move from a long list of ideas to a focused, funded prototype plan."
 date: 2026-03-24
+page_image: "/images/uc-use-case-prioritization.webp"
+page_image_alt: "How to prioritize AI use cases — from scatter of ideas to a scored, fundable shortlist"
 ---
 
 ## The Problem with AI Strategy Sessions

@@ -31,6 +31,31 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // ── Mega menu hover intent ─────────────────────────────────────
+  //
+  // Problem: moving the cursor from the trigger into the dropdown
+  // briefly exits the parent div, dropping :hover and setting
+  // pointer-events: none — making the menu uncklickable.
+  //
+  // Fix: mouseenter clears the close timer; mouseleave starts a
+  // 300ms countdown before removing .is-open. The cursor has a
+  // comfortable window to travel from trigger to dropdown.
+  // CSS .is-open rules mirror the :hover rules, so pointer-events
+  // stays auto during the grace period.
+  // ──────────────────────────────────────────────────────────────
+  document.querySelectorAll('.nav-item--mega').forEach(function (item) {
+    var closeTimer;
+    item.addEventListener('mouseenter', function () {
+      clearTimeout(closeTimer);
+      item.classList.add('is-open');
+    });
+    item.addEventListener('mouseleave', function () {
+      closeTimer = setTimeout(function () {
+        item.classList.remove('is-open');
+      }, 300);
+    });
+  });
+
   // ── Luxury Parallax — lerp-based scroll depth ─────────────────
   //
   // How it works:

@@ -16,5 +16,9 @@ outputs:
   home:
     - HTML
 
+# Disable taxonomy pages (tags/categories) — not used on this site
+disableKinds:
+  - taxonomy
+  - term
+
 enableRobotsTXT: true
-canonifyURLs: true

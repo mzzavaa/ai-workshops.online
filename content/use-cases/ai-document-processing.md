@@ -2,6 +2,8 @@
 title: "Intelligent Document Processing with AI"
 description: "Automated extraction from contracts, invoices, and forms - OCR, classification, and structured data output that eliminates manual data entry."
 date: 2026-03-24
+page_image: "/images/uc-document-processing.webp"
+page_image_alt: "Intelligent document processing with AI — OCR, extraction, and structured data output"
 ---
 
 ## The Problem

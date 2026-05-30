@@ -2,6 +2,8 @@
 title: "Cloud Migration Funding - Up to 400,000 EUR from AWS"
 description: "How to navigate AWS funding programs for cloud migration and modernization - eligibility criteria, program types, and how to maximize available funding."
 date: 2026-03-24
+page_image: "/images/uc-aws-cloud-migration.webp"
+page_image_alt: "AWS cloud migration funding — up to €400,000 for qualifying migration and modernization projects"
 ---
 
 ## AWS Funds Cloud Migrations

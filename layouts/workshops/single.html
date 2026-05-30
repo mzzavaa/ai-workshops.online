@@ -9,7 +9,25 @@
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" x2="5" y1="12" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
         All Workshops
       </a>
-      <div class="ws-phase-tag">{{ .Params.phase_label }}</div>
+
+      <!-- Phase progress: 01 → 02 → 03 -->
+      <nav class="ws-phase-progress" aria-label="Workshop sequence">
+        <a href="/workshops/discovery/" class="ws-phase-step{{ if eq .Params.phase "01" }} ws-phase-step--active{{ end }}">
+          <span class="ws-phase-step-num">01</span>
+          <span class="ws-phase-step-label">Goal Workshop</span>
+        </a>
+        <div class="ws-phase-connector" aria-hidden="true"></div>
+        <a href="/workshops/concept/" class="ws-phase-step{{ if eq .Params.phase "02" }} ws-phase-step--active{{ end }}">
+          <span class="ws-phase-step-num">02</span>
+          <span class="ws-phase-step-label">Concept Sprint</span>
+        </a>
+        <div class="ws-phase-connector" aria-hidden="true"></div>
+        <a href="/workshops/prototype/" class="ws-phase-step{{ if eq .Params.phase "03" }} ws-phase-step--active{{ end }}">
+          <span class="ws-phase-step-num">03</span>
+          <span class="ws-phase-step-label">Prototype Sprint</span>
+        </a>
+      </nav>
+
       <h1 class="ws-title">{{ .Title }}</h1>
       {{ if .Params.tagline }}<p class="ws-tagline">{{ .Params.tagline }}</p>{{ end }}
       <div class="ws-meta-strip">
@@ -34,8 +52,26 @@
           AWS-funded options available
         </div>
       </div>
+      {{ if .Params.page_image }}
+      <div class="ws-hero-visual">
+        <img src="{{ .Params.page_image }}" alt="{{ .Params.page_image_alt | default .Title }}" class="cinematic-band" loading="eager" />
+      </div>
+      {{ end }}
     </div>
   </section>
+
+  {{ if .Params.stats }}
+  <section class="ws-stats-strip">
+    <div class="container">
+      {{ range .Params.stats }}
+      <div class="ws-stat-pill">
+        <span class="ws-stat-value">{{ .value }}</span>
+        <span class="ws-stat-label">{{ .label }}</span>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
 
   <section class="ws-body">
     <div class="container">
