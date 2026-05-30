@@ -19,3 +19,7 @@ Thumbs.db
 *~
 .idea/
 .vscode/
+
+# Claude Code working directories (never commit)
+.claude/
+.playwright-mcp/
